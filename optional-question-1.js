@@ -13,11 +13,11 @@ function getRelationship(x, y) {
     } else if (!isNumeric(y)) {
       return "Can't compare relationships because " + y + " is not a number";
     } else if (x === y) {
-      return "The two values are equal";
+      return "=";
     } else if (x < y) {
-      return x + " is LESS THAN " + y;
+      return "<";
     } else if (x > y) {
-      return x + " is GREATER THAN " + y;
+      return ">";
     } 
 }
 
